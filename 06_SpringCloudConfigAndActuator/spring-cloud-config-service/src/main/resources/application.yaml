@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/williamandradesantana/microservices-spring-boot-erudio
-          search-paths: 06_SpringCloudConfigAndActuator/william-config-server/greeting-service
+          search-paths: '06_SpringCloudConfigAndActuator/william-config-server/greeting-service*'
           username: ${GITHUB_USERNAME}
           password: ${TOKEN_SPRING_CLOUD_SERVER_ERUDIO}
           default-label: main
