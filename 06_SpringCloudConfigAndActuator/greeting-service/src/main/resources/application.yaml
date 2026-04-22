@@ -10,7 +10,7 @@ spring:
 
   cloud:
     config:
-      profile: en
+      profile: it
 
 management:
   endpoints:
